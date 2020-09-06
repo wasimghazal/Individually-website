@@ -1,0 +1,100 @@
+<htmal>
+<head><title>
+Picture
+</title>
+
+ <!------------------- border color start here ------------------->
+<style>
+b1 {
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+b2 {
+    border-style: solid;
+    border-color: #c63d44;
+}
+</style>
+ <!------------------- border color finish here ------------------->
+
+<!------------------- select connect with iforms start here ------------------->
+
+<script language="JAVASCRIPT">
+<!--//
+function goToPage763(mySelect)
+{
+PageIndex2=mySelect.selectedIndex;
+{
+if 
+(
+mySelect.options[PageIndex2].value != "none"
+)
+{
+frames['iframe_b'].location.href = mySelect.options[PageIndex2].value;
+}
+
+}
+}
+//-->
+</script>
+
+<!------------------- select connect with iforms finish here ------------------->
+
+
+
+ <!------------------- Changing link color start here ------------------->
+
+<style type="text/css">
+A:link { COLOR: red; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: black; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: pink; background-color: pink;TEXT-DECORATION: none }
+A:hover { COLOR: blue; background-color: yellow; TEXT-DECORATION: none; font-weight: none }
+</style>
+
+ <!------------------- Changing link color finish here ------------------->
+
+</head>
+<body height=510 width="100%" style="background-color:AliceBlue;" align=center>
+<table border="0" height="10" width="100%" align="center">
+<tr><td height="10" width="100%"> 
+ <!------------------- Top start here ------------------->
+<table border="0" height="10" width="100%">
+<tr align="center"><td width="25%"><a href="./girls.html" target="iframe_b">Girls</a></td><td width="25%"><a href="./nature.html" target="iframe_b">Nature</a></td><td width="25%"><a href="./animals.html" target="iframe_b">Animals</a></td><td width="25%" align="left">
+
+<!------------------- list2 start here ------------------->
+
+<form name="form763">
+  <select NAME="select763" SIZE="1" onChange="goToPage763(this.form.select763)">
+    <option VALUE="none" SELECTED>Select a topic and go</option>
+     <option value="./girls.html">Girls</option>
+	<option value="./nature.html">Nature</option>
+	<option value="./animals.html">Animals</option>
+    </select> 
+</form>
+<!------------------- List2 start here ------------------->
+
+</td> </tr>
+</table>
+<!------------------- Top finish here ------------------->
+<table border="0" HEIGHT="445" WIDTH="100%">
+<tr><td>
+<IFRAME NAME="iframe_b" SRC="note.html" HEIGHT="100%" WIDTH="100%" scrolling="no" frameborder="0" allowtransparency="true">
+<!--webbot bot="HTMLMarkup" endspan --><!--webbot bot="HTMLMarkup" startspan -->
+  <!--webbot bot="HTMLMarkup" endspan --> 
+  If you can see this, your browser does not support iframes!
+  <!--webbot bot="HTMLMarkup" startspan -->
+  </IFRAME>
+</td></tr>
+
+</table>
+</body>
+
+</html>
+
+
+
+<!--  align="center" &ensp; -->
+
+<!-- <iframe height="100%" width="100%" src="./photo1.html" name="iframe_b"></iframe> -->
+
+
